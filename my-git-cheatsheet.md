@@ -54,7 +54,7 @@ Don't use the prefix `origin/` within `<branch_name>`.
 `git branch -u <remote>/<branch_name>`
 
 
-### force a branch to exactly match the remote branch after diverging:
+### force a local branch to match a remote branch after diverging:
 
 Warning! You can lose code doing this.
 
@@ -63,6 +63,15 @@ git fetch origin
 git reset --hard origin/<branch_name>
 ```
 
+### force remote commit history to match your local history:
+
+**!!! Very destructive !!!**
+
+Relevant if you're interested in [removing sensitive data from a repository](https://docs.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository).
+
+```
+git push origin --force --all
+```
 
 ----------------------------------------------------
 ## DEALING WITH REMOTE URLS
