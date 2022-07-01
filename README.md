@@ -7,6 +7,6 @@ I make no claims that the material will be useful for anyone besides me. Explana
 
 If you're new to Git, seek instruction elsewhere!
 
-* [My Git Cheatsheet](my-git-cheatsheet) - My main reference
-* [Forks](forks) - Info for dealing with forks
-* [Setting up a Linux server as a remote git server](linux-as-remote-git-server)
+* [My Git Cheatsheet](my-git-cheatsheet.md) - My main reference
+* [Forks](forks.md) - Info for dealing with forks
+* [Setting up a Linux server as a remote git server](linux-as-remote-git-server.md)
