@@ -150,8 +150,7 @@ These are:
 - false means don't convert anything
 - true is what you want if all work will be done on Windows
 
-I've read so much about git and line endings and I still get frustrated. I don't like any of the options.
-
+I've read so much about git and line endings, and I still get frustrated. I don't like any of the options. 
 
 ### generate an SSH key
 
