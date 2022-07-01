@@ -50,9 +50,13 @@ I've read so much about git and line endings, and I still get frustrated. I don'
 
 ### generate an SSH key
 
-on pc (per GitHub's directions):
+On pc, per GitHub's instructions (use the email you would use to log in to GitHub):
 
-`ssh-keygen -t rsa -b 4096 -C "your.email@example.com"`
+`ssh-keygen -t ed25519 -C "your_email@example.com"`
+
+> Note: If you are using a legacy system that doesn't support the Ed25519 algorithm, use:
+> 
+> `ssh-keygen -t rsa -b 4096 -C "your.email@example.com"`
 
 on pc:
 

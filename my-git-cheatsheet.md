@@ -22,6 +22,17 @@ Warning! You can lose code doing this.
 
 `git format-patch <branch_name> --stdout > ~/a-handy-patch-name.patch`
 
+### reset author for all commits in branch (SHAs will be updated, date for all commits will be changed to now)
+
+`git rebase -r --root --exec "git commit --amend --no-edit --reset-author"`
+
+### reset author for all commits in branch, but keep the old dates (SHAs will still be updated)
+
+`git rebase -r --root --exec "git commit --amend --no-edit --author='crybx <crybx@users.noreply.github.com>'"`
+
+then
+
+`git rebase --root --committer-date-is-author-date`
 
 ----------------------------------------------------
 ## BRANCH HYGIENE
