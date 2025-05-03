@@ -1,4 +1,6 @@
-## CONFIG SETUP FOR A NEW INSTALLATION OF GIT
+[< Git References](README.md)
+
+# CONFIG SETUP FOR A NEW INSTALLATION OF GIT
 
 ### check current user information
 
@@ -53,10 +55,14 @@ These are:
 `git config core.autocrlf <true/false/input>`
 
 - false means don't convert anything
-- true is what you want if all work will be done on Windows
+- true converts LF to CRLF on checkout and all line ending to LF on commit, and is what people say Windows users should use
 - input means pull line endings as they are in the repo but convert to LF on commit
 
-I've read so much about git and line endings, and I still get frustrated. I don't like any of the options. 
+Windows can handle CRLF (`\r\n`) or LF (`\n`), Mac and Linux use just LF.
+
+I've read so much about git and line endings, and I don't like any of the options. Why is there no convert to LF on checkout AND commit? That's what I want. Just...use the one that works everywhere and don't give me warnings about line conversions.
+
+I use input though, even working on Windows. The editors I use let me set my line endings as LF or CRLF, so I set mine to LF. This way, I see no warnings about line endings and everything is consistent.
 
 ### generate an SSH key for GitHub
 

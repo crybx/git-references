@@ -1,4 +1,6 @@
-# Dealing with Forks
+[< Git References](README.md)
+
+# DEALING WITH FORKS
 
 ## [Configuring a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
 
