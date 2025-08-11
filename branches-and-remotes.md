@@ -12,6 +12,11 @@
 `git branch -D <branchName>`
 
 
+### create a new local branch with no history
+
+`git checkout --orphan <branchName>`
+
+
 ### delete a remote branch
 
 `git push origin --delete <branch_name>`
